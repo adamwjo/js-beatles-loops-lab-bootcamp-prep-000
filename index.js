@@ -25,7 +25,7 @@ function iLoveTheBeatles(8){
   ar = []
   do {
     ar.push("I love the Beatles!")
-    n++
+    8++
   } while (n < 15)
   return ar
 }
