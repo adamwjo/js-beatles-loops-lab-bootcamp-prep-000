@@ -15,6 +15,5 @@ const facts = [
 function johnLennonFacts(facts){
   while (facts.length < 4){
     facts.push(`${facts[0]}!!!`)
-    facts++
   } return facts
 }
