@@ -22,7 +22,7 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(n){
-  ar = []
+  var ar = []
   do {
     ar.unshift("I love the Beatles!")
     n++
