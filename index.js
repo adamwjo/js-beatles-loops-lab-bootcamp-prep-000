@@ -13,7 +13,10 @@ const facts = [
 ]
 
 function johnLennonFacts(facts){
-  while (facts.length < 4){
-    facts.push(`${facts[0]}`"!!!")
+  var newArray = []
+  let i = 0
+  while (i < facts.length){
+    newArray.push(`${facts[i]}!!!`)
+    i++
   } return facts
 }
