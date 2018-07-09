@@ -13,8 +13,8 @@ const facts = [
 ]
 
 function johnLennonFacts(facts){
-  while (facts.length <= 4){
+  while (facts.length < 4){
     facts.push(`${facts[0]}!!!`)
-    facts[0]++ 
+    facts[0]++
   } return facts
 }
