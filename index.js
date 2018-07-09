@@ -13,7 +13,7 @@ const facts = [
 ]
 
 function johnLennonFacts(facts){
-  while (facts.length > 0){
-    facts.unshift('!!!')
+  while (facts.length < 5){
+    facts.unshift(`${facts[0]}!!!`++)
   } return facts
 }
