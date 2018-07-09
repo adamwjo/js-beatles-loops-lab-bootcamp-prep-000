@@ -14,6 +14,6 @@ const facts = [
 
 function johnLennonFacts(facts){
   while (facts.length <= 4){
-    facts.unshift('!!!')
+    facts.push(`${facts[0]}!!!`) 
   } return facts
 }
