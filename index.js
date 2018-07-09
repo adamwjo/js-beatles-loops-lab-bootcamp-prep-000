@@ -20,3 +20,7 @@ function johnLennonFacts(facts){
     i++
   } return newArray
 }
+
+function iLoveTheBeatles(n){
+  
+}
